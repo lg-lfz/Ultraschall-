@@ -46,4 +46,11 @@ ECHO ──┬── 1kΩ ──┬── GPIO 18
 
 ### Code
 
-Identisch zu Option A — nur Pi
+Identisch zu Option A — nur Pins anpassen:
+
+```cpp
+#define TRIG_PIN 5
+#define ECHO_PIN 18
+```
+
+Rest des Codes bleibt unverändert.
